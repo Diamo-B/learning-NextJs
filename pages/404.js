@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Head from 'next/head'
 
 
-const notFound = () => {
+const NotFound = () => {
     const router = useRouter();
     useEffect(()=>{
         setTimeout(()=>{
@@ -26,4 +26,4 @@ const notFound = () => {
     );
 }
  
-export default notFound;
+export default NotFound;
